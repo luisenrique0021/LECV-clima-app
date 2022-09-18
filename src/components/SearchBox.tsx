@@ -32,8 +32,9 @@ export const SearchBox = ({ handleSearch }: {
         id="search"
         name="search"
         type="search"
-        className="absolute w-72 h-12 p-3 rounded-full mt-12"
-        placeholder="Buscar ubicación..."
+        // className="absolute w-72 h-12 p-3 rounded-full mt-12"
+        className="absolute w-102 h-12 px-30 rounded-full mt-21"
+        placeholder="Escribe una ciudad..."
         onChange={handleChange}
         value={search}
       />

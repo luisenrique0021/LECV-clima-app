@@ -2,20 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+/* body {
     background: rgb(2, 0, 36);
     background: linear-gradient(
         145deg,
         rgba(2, 0, 36, 1) 0%,
         rgba(0, 58, 96, 1) 100%
     );
+} */
+
+body {
+    background: linear-gradient(to bottom, blue, white 80%, orange);
 }
+
 
 input {
     position: absolute;
@@ -43,6 +48,7 @@ th {
     text-align: left;
     color: rgb(255, 153, 0);
 }
+
 td {
     width: 79px;
 }
